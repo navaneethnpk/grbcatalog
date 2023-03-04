@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>GRB230129A</title>
-    <link rel="stylesheet" href="summary.css">
+    <link rel="stylesheet" href="../summary.css">
 </head>
 <body>
     <h1>GRB230129A</h1>
@@ -14,7 +14,9 @@
         <a href="#summary1"><button class="button1">Summary</button></a>
         <a href="#summary2"><button class="button1">AstroSat Summary</button></a>
         <a href="#summary3"><button class="button1">Detection Summary</button></a>
-        <a href="#summary4"><button class="button1">Spectral Summary</button></a>
+        <a href="#summary4"><button class="button1">GCN Summary</button></a>
+        <a href="#summary5"><button class="button1">Spectral Summary</button></a>
+        <a href="#summary6"><button class="button1">Polarisation Summary</button></a>
     </div>
     <div class="container2" id="summary1">
         <h2>Summary</h2>
@@ -79,6 +81,14 @@
         <div>
             <table>
                 <tr>
+                    <td>AstroSat Detection Status</td>
+                    <td>DETECTED</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
                     <td>t90_czti</td>
                     <td>0.78</td>
                 </tr>
@@ -104,9 +114,60 @@
                 </tr>
             </table>
         </div>
+        <h3>Light Curve: CZTI</h3>
+        <div class="pdf-container">
+            <object data="AS1CZT_GRB230129A_Veto_1SECBIN_lightcurves.pdf"></object>
+        </div>
+        <h3>Light Curve: Veto</h3>
+        <div class="pdf-container">
+            <object data="AS1CZT_GRB230129A_Veto_1SECBIN_lightcurves.pdf"></object>
+        </div>
     </div>
     <div class="container2" id="summary4">
+        <h2>GCN Summary</h2>
+        <h3>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230129A.gcn3">Link</a></h3>
+        <h3>GCN Circular: 33232</h3>
+        <div class="text-container">
+            <embed type="text/html" src="33232.txt">
+        </div>
+        <h3>GCN Circular: 33236</h3>
+        <div class="text-container">
+            <embed type="text/html" src="33236.txt">
+        </div>
+    </div>
+    <div class="container2" id="summary5">
         <h2>Spectral Summary</h2>
+        <div>
+            <table>
+                <tr>
+                    <td>alpha</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>alpha_err</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>beta</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>beta_err</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>epeak</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>epeak_err</td>
+                    <td>--</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container2" id="summary6">
+        <h2>Polarisation Summary</h2>
         <div>
             <table>
                 <tr>
