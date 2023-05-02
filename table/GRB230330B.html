@@ -13,10 +13,10 @@
             <a href="/index.html" class="navbar-brand">GRAND CATALOG</a>
         </div>
         <div class="navbar-right">
-            <a href="/index.html">HOME</a>
-            <a href="/table.html">TABLE</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
+            <a href="index.html">HOME</a>
+            <a href="table.html">TABLE</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
         </div>
     </nav>
     <div class="grbhead">
@@ -144,11 +144,38 @@
                 </tr>
             </table>
         </div>
+        <div class="plt-box">
+            <h3>Light Curve: CZTI</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230330B/AS1CZT_GRB230426A_1SECBIN_lightcurves.pdf"></object>
+            </div>
+            <h3>Light Curve: Veto</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230330B/AS1CZT_GRB230426A_Veto_1SECBIN_lightcurves.pdf"></object>
+            </div>
+        </div>
     </div>
     <div class="section-box" id="sectionFour">
         <h2>GCN Data</h2>
         <div class="gcn-box">
-            
+            <p>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230129A.gcn3">Link</a></p>
+            <div class="collapsible-group">
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-1" class="toggle">
+                    <label for="collapsible-1" class="label">GCN Circular: 33236</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33236/raw"></iframe>
+                    </div>
+                </div>
+
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33232</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33232/raw"></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="section-box" id="sectionFive">
@@ -156,32 +183,42 @@
         <div class="table-box">
             <table id="TableFour">
                 <tr>
-                    <td>alpha</td>
+                    <td>Alpha</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>alpha_err</td>
+                    <td>Alpha Error</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>beta</td>
+                    <td>Beta</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>beta_err</td>
+                    <td>Beta_err</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>epeak</td>
+                    <td>Epeak</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>epeak_err</td>
+                    <td>Epeak Error</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Model</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Energy Range</td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -202,8 +239,47 @@
                     <td></td>
                     <td></td>
                 </tr>
+                <tr>
+                    <td>Polarisation Factor</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Polarisation Factor Error</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Polarisation Angle</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Polarisation Angle Error</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Time Duration of Polarisation</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bayes Factor</td>
+                    <td></td>
+                    <td></td>
+                </tr>
             </table>
         </div>
+
+        <div class="plt-box">
+            <h3>Compton Analysis Plot</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230330B/AS1CZT_GRB230426A_200_4_compton_events.pdf"></object>
+            </div>
+        </div>
+
+
     </div>
     <footer>
         <p>Copyright &copy; 2023 IUCAA, All Rights Reserved.</p>
