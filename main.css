@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 96px;
-    background-color: rgba(16,40,54,1.0);
+    background-color: #272643;
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 0 64px;
@@ -53,12 +53,12 @@ body {
 }
 
 .navbar a:hover {
-    color: #0ABBCC;
-    /* border-bottom: 2px solid #0ABBCC; */
+    color: #53c6c6;
+    /* border-bottom: 2px solid #53c6c6; */
 }
 /* ----------Footer------------------------------------------------------ */
 footer {
-    background-color: rgba(16,40,54,1.0);
+    background-color: #272643;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -68,10 +68,10 @@ footer {
 }
 /* ----------Other Elements---------------------------------------------- */
 .homebox-1 {
-    background-color: rgba(16,40,54,0.1);
+    background-color: #e3f6f5;
     /* height: 512px; */
     border-radius: 16px;
-    margin-top: 156px;
+    margin-top: 96px;
     margin-left: 64px;
     margin-right: 64px;
     padding: 36px;
@@ -82,13 +82,13 @@ footer {
 }
 
 .homebox-2 {
-    background-color: rgba(16,40,54,0.1);
+    background-color: #e3f6f5;
     /* height: 512px; */
     border-radius: 16px;
     margin-top: 96px;
     margin-left: 64px;
     margin-right: 64px;
-    margin-bottom: 156px;
+    margin-bottom: 96px;
     padding: 36px;
     display: flex;
     justify-content: space-between;
