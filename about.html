@@ -23,7 +23,82 @@
         <h1>Parameter Info</h1>
         <div class="para-table">
             <table>
-                
+                <thead>
+                    <tr>
+                        <td>Parameter Name</td>
+                        <td>Description</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GRB Name</td>
+                        <td>GRB name in the 'GCN' format, i.e. GRB010513B is the second GRB on the 13th of May 2001.</td>
+                    </tr>
+                    <tr>
+                        <td>Trigger Time</td>
+                        <td>UTC time at which the GRB triggered the satellite.</td>
+                    </tr>
+                    <tr>
+                        <td>AstroSat Time</td>
+                        <td>This time corresponds to the trigger time of the transient calculated in the Astrosat Seconds. Time is desplayed in seconds.</td>
+                    </tr>
+                    <tr>
+                        <td>RA</td>
+                        <td>Right ascension in J2000 coordinates.</td>
+                    </tr>
+                    <tr>
+                        <td>Dec</td>
+                        <td>Declination in J2000 coordinates.</td>
+                    </tr>
+                    <tr>
+                        <td>T90</td>
+                        <td>Duration of the time interval during which 90% of the GRB photon counts are observed, starting at 5% and ending at 95%.</td>
+                    </tr>
+                    <tr>
+                        <td>T90 Error</td>
+                        <td>Estimated 1σ error on the duration of the T90 interval.</td>
+                    </tr>
+                    <tr>
+                        <td>Fluence</td>
+                        <td>The time integrated total energy per unit surface.</td>
+                    </tr>
+                    <tr>
+                        <td>Fluence Error</td>
+                        <td>Estimated 1σ error on the fluence.</td>
+                    </tr>
+                    <tr>
+                        <td>Orbit_Number</td>
+                        <td>The Orbit number in which the transient is observed in the CZTI data.</td>
+                    </tr>
+                    <tr>
+                        <td>T90(CZTI)</td>
+                        <td>Duration of the time interval during which 90% of the fluence is observed, starting at 5% and ending at 95%.</td>
+                    </tr>
+                    <tr>
+                        <td>Compton_Counts</td>
+                        <td>The number of events recorded when subjected to compton scattering criteria. It is depicted in counts per sec i.e. count rate.</td>
+                    </tr>
+                    <tr>
+                        <td>Theta_X, Theta_Y</td>
+                        <td>The direction in which CZTI is pointing in the camera coordinates system. The theta X and theta Y are displayed in degree.</td>
+                    </tr>
+                    <tr>
+                        <td>Theta</td>
+                        <td>The azimuthal angle of the instruent in camera coordinate system.</td>
+                    </tr>
+                    <tr>
+                        <td>Phi</td>
+                        <td>The polar angle of the instruent in camera coordinate system.</td>
+                    </tr>
+                    <tr>
+                        <td>AstroSat Detection</td>
+                        <td>Whether the transient is observed in CZTI or not. I is defined by flag value 0 for non detection and 1 for detection.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
