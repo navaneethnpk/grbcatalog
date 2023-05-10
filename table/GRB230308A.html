@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRB230330B</title>
+    <title>GRB230308A</title>
     <link rel="stylesheet" href="page.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
         </div>
     </nav>
     <div class="grbhead">
-        <h1>GRB230330B</h1>
+        <h1>GRB230308A</h1>
         <div class="button-container">
             <button><a href="#sectionOne">Summary</a></button>
             <button><a href="#sectionTwo">AstroSat Info</a></button>
@@ -37,22 +37,22 @@
                 <tr>
                     <td>GRB Name</td>
                     <td></td>
-                    <td>GRB230330B</td>
+                    <td>GRB230308A</td>
                 </tr>
                 <tr>
                     <td>Trigger Time</td>
                     <td>UTC</td>
-                    <td>2023-03-30 00:26:04</td>
+                    <td>2023-03-08 13:32:27</td>
                 </tr>
                 <tr>
                     <td>RA</td>
                     <td>Degrees</td>
-                    <td>65.05</td>
+                    <td>94.9</td>
                 </tr>
                 <tr>
                     <td>Dec</td>
                     <td>Degrees</td>
-                    <td>35.22</td>
+                    <td>68.5</td>
                 </tr>
             </table>
         </div>
@@ -64,32 +64,32 @@
                 <tr>
                     <td>AstroSat Time</td>
                     <td>AstroSat Seconds</td>
-                    <td>417831965.0</td>
+                    <td>415978348.0</td>
                 </tr>
                 <tr>
                     <td>Orbit_no</td>
                     <td></td>
-                    <td>40560</td>
+                    <td>40240</td>
                 </tr>
                 <tr>
                     <td>Theta</td>
                     <td>Degrees</td>
-                    <td>104.65664</td>
+                    <td>27.10004</td>
                 </tr>
                 <tr>
                     <td>Phi</td>
                     <td>Degrees</td>
-                    <td>69.44135</td>
+                    <td>241.28093</td>
                 </tr>
                 <tr>
                     <td>Theta_x</td>
                     <td>Degrees</td>
-                    <td>126.67748</td>
+                    <td>-13.81454</td>
                 </tr>
                 <tr>
                     <td>Theta_y</td>
                     <td>Degrees</td>
-                    <td>105.60642</td>
+                    <td>-24.16946</td>
                 </tr>
             </table>
         </div>
@@ -109,13 +109,21 @@
     <div class="section-box" id="sectionFour">
         <h2>GCN Data</h2>
         <div class="gcn-box">
-            <p>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230330B.gcn3">Link</a></p>
+            <p>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230308A.gcn3">Link</a></p>
             <div class="collapsible-group">
                 <div class="collapsible-item">
                     <input type="checkbox" id="collapsible-1" class="toggle">
-                    <label for="collapsible-1" class="label">GCN Circular: 33545</label>
+                    <label for="collapsible-1" class="label">GCN Circular: 33420</label>
                     <div class="content">
-                        <iframe src="https://gcn.nasa.gov/circulars/33545/raw"></iframe>
+                        <iframe src="https://gcn.nasa.gov/circulars/33420/raw"></iframe>
+                    </div>
+                </div>
+
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33421</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33421/raw"></iframe>
                     </div>
                 </div>
             </div>
@@ -123,7 +131,60 @@
     </div>
     <div class="section-box" id="sectionFive">
         <h2>Spectral Data</h2>
-        <p>Fermi Detection Data is not present!</p>
+        <div class="table-box">
+            <table id="TableFour">
+                <tr>
+                    <td>Fluence</td>
+                    <td></td>
+                    <td>8.5E-06</td>
+                </tr>
+                <tr>
+                    <td>Fluence Error</td>
+                    <td></td>
+                    <td>±0.2E-06</td>
+                </tr>
+                <tr>
+                    <td>Alpha</td>
+                    <td></td>
+                    <td>-0.51</td>
+                </tr>
+                <tr>
+                    <td>Alpha Error</td>
+                    <td></td>
+                    <td>±0.03</td>
+                </tr>
+                <tr>
+                    <td>Beta</td>
+                    <td></td>
+                    <td>-3.1</td>
+                </tr>
+                <tr>
+                    <td>Beta_err</td>
+                    <td></td>
+                    <td>±0.4</td>
+                </tr>
+                <tr>
+                    <td>Epeak</td>
+                    <td></td>
+                    <td>943</td>
+                </tr>
+                <tr>
+                    <td>Epeak Error</td>
+                    <td></td>
+                    <td>±46</td>
+                </tr>
+                <tr>
+                    <td>Model</td>
+                    <td></td>
+                    <td>Band Function</td>
+                </tr>
+                <tr>
+                    <td>Energy Range</td>
+                    <td></td>
+                    <td>10-1000 keV</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <div class="section-box-end" id="sectionSix">
         <h2>Polarisation Data</h2>

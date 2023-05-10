@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRB230307A</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="/index.html" class="navbar-brand">GRAND CATALOG</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/index.html">HOME</a>
+            <a href="/table.html">TABLE</a>
+            <a href="/about.html">ABOUT</a>
+            <a href="/contact.html">CONTACT</a>
+        </div>
+    </nav>
+    <div class="grbhead">
+        <h1>GRB230307A</h1>
+        <div class="button-container">
+            <button><a href="#sectionOne">Summary</a></button>
+            <button><a href="#sectionTwo">AstroSat Info</a></button>
+            <button><a href="#sectionThree">Detection Info</a></button>
+            <button><a href="#sectionFour">GCN Data</a></button>
+            <button><a href="#sectionFive">Spectral Data</a></button>
+            <button><a href="#sectionSix">Polarisation Data</a></button>
+        </div>
+    </div>
+    <div class="section-box" id="sectionOne">
+        <h2>Summary</h2>
+        <div class="table-box">
+            <table id="TableOne">
+                <tr>
+                    <td>GRB Name</td>
+                    <td></td>
+                    <td>GRB230307A</td>
+                </tr>
+                <tr>
+                    <td>Trigger Time</td>
+                    <td>UTC</td>
+                    <td>2023-03-07 15:44:06</td>
+                </tr>
+                <tr>
+                    <td>RA</td>
+                    <td>Degrees</td>
+                    <td>54.1</td>
+                </tr>
+                <tr>
+                    <td>Dec</td>
+                    <td>Degrees</td>
+                    <td>-76.6</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="section-box" id="sectionTwo">
+        <h2>AstroSat Info</h2>
+        <div class="table-box">
+            <table id="TableTwo">
+                <tr>
+                    <td>AstroSat Time</td>
+                    <td>AstroSat Seconds</td>
+                    <td>415899847.0</td>
+                </tr>
+                <tr>
+                    <td>Orbit_no</td>
+                    <td></td>
+                    <td>40227</td>
+                </tr>
+                <tr>
+                    <td>Theta</td>
+                    <td>Degrees</td>
+                    <td>173.65976</td>
+                </tr>
+                <tr>
+                    <td>Phi</td>
+                    <td>Degrees</td>
+                    <td>260.02956</td>
+                </tr>
+                <tr>
+                    <td>Theta_x</td>
+                    <td>Degrees</td>
+                    <td>-178.89788</td>
+                </tr>
+                <tr>
+                    <td>Theta_y</td>
+                    <td>Degrees</td>
+                    <td>-173.75475</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="section-box" id="sectionThree">
+        <h2>Detection Info</h2>
+        <div class="table-box">
+            <table class="table-mini" id="TableThreeMini">
+                <tr>
+                    <td>AstroSat Detection Status</td>
+                    <td></td>
+                    <td>DETECTED</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-box">
+            <table id="TableThree">
+                <tr>
+                    <td>t90_czti</td>
+                    <td>Seconds</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>t90_czti_err</td>
+                    <td>Seconds</td>
+                    <td>1, -1</td>
+                </tr>
+                <tr>
+                    <td>peak_counts</td>
+                    <td></td>
+                    <td>4041</td>
+                </tr>
+                <tr>
+                    <td>peak_count_err</td>
+                    <td></td>
+                    <td>33, -37</td>
+                </tr>
+                <tr>
+                    <td>Total_counts</td>
+                    <td></td>
+                    <td>90900</td>
+                </tr>
+                <tr>
+                    <td>Mean_background_counts</td>
+                    <td></td>
+                    <td>453</td>
+                </tr>
+            </table>
+        </div>
+        <div class="plt-box">
+            <h3>Light Curve: CZTI</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230307A/AS1CZT_GRB230307A_1SECBIN_lightcurves.pdf"></object>
+            </div>
+            <h3>Light Curve: Veto</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230307A/AS1CZT_GRB230307A_Veto_1SECBIN_lightcurves.pdf"></object>
+            </div>
+        </div>
+    </div>
+    <div class="section-box" id="sectionFour">
+        <h2>GCN Data</h2>
+        <div class="gcn-box">
+            <p>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230307A.gcn3">Link</a></p>
+            <div class="collapsible-group">
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-1" class="toggle">
+                    <label for="collapsible-1" class="label">GCN Circular: 33405</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33405/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-1" class="toggle">
+                    <label for="collapsible-1" class="label">GCN Circular: 33406</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33406/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-1" class="toggle">
+                    <label for="collapsible-1" class="label">GCN Circular: 33410</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33410/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-1" class="toggle">
+                    <label for="collapsible-1" class="label">GCN Circular: 33407</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33407/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-1" class="toggle">
+                    <label for="collapsible-1" class="label">GCN Circular: 33411</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33411/raw"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="section-box" id="sectionFive">
+        <h2>Spectral Data</h2>
+        <div class="table-box">
+            <table id="TableFour">
+                <tr>
+                    <td>Fluence</td>
+                    <td></td>
+                    <td>2.951E-03</td>
+                </tr>
+                <tr>
+                    <td>Fluence Error</td>
+                    <td></td>
+                    <td>±0.004E-03</td>
+                </tr>
+                <tr>
+                    <td>Alpha</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Alpha Error</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Beta</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Beta_err</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Epeak</td>
+                    <td></td>
+                    <td>936</td>
+                </tr>
+                <tr>
+                    <td>Epeak Error</td>
+                    <td></td>
+                    <td>±3</td>
+                </tr>
+                <tr>
+                    <td>Model</td>
+                    <td></td>
+                    <td>Power Law</td>
+                </tr>
+                <tr>
+                    <td>Energy Range</td>
+                    <td></td>
+                    <td>10-1000 keV</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="section-box-end" id="sectionSix">
+        <h2>Polarisation Data</h2>
+        <div class="table-box">
+            <table id="TableFour">
+                <tr>
+                    <td>Compton Counts</td>
+                    <td></td>
+                    <td>5484</td>
+                </tr>
+                <tr>
+                    <td>S/N Ratio</td>
+                    <td></td>
+                    <td>1.99</td>
+                </tr>
+                <tr>
+                    <td>Polarisation Factor</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Polarisation Factor Error</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Polarisation Angle</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Polarisation Angle Error</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Time Duration of Polarisation</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Bayes Factor</td>
+                    <td></td>
+                    <td>--</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="plt-box">
+            <h3>Compton Analysis Plot</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230307A/AS1CZT_GRB230307A_200_4_compton_events.pdf"></object>
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        <p>Copyright &copy; 2023 IUCAA, All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

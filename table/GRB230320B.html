@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRB230330B</title>
+    <title>GRB230320B</title>
     <link rel="stylesheet" href="page.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
         </div>
     </nav>
     <div class="grbhead">
-        <h1>GRB230330B</h1>
+        <h1>GRB230320B</h1>
         <div class="button-container">
             <button><a href="#sectionOne">Summary</a></button>
             <button><a href="#sectionTwo">AstroSat Info</a></button>
@@ -37,22 +37,22 @@
                 <tr>
                     <td>GRB Name</td>
                     <td></td>
-                    <td>GRB230330B</td>
+                    <td>GRB230320B</td>
                 </tr>
                 <tr>
                     <td>Trigger Time</td>
                     <td>UTC</td>
-                    <td>2023-03-30 00:26:04</td>
+                    <td>2023-03-20 21:12:23</td>
                 </tr>
                 <tr>
                     <td>RA</td>
                     <td>Degrees</td>
-                    <td>65.05</td>
+                    <td>74.917</td>
                 </tr>
                 <tr>
                     <td>Dec</td>
                     <td>Degrees</td>
-                    <td>35.22</td>
+                    <td>5.47</td>
                 </tr>
             </table>
         </div>
@@ -64,32 +64,32 @@
                 <tr>
                     <td>AstroSat Time</td>
                     <td>AstroSat Seconds</td>
-                    <td>417831965.0</td>
+                    <td>417042744.0</td>
                 </tr>
                 <tr>
                     <td>Orbit_no</td>
                     <td></td>
-                    <td>40560</td>
+                    <td>40422</td>
                 </tr>
                 <tr>
                     <td>Theta</td>
                     <td>Degrees</td>
-                    <td>104.65664</td>
+                    <td>112.62426</td>
                 </tr>
                 <tr>
                     <td>Phi</td>
                     <td>Degrees</td>
-                    <td>69.44135</td>
+                    <td>86.43301</td>
                 </tr>
                 <tr>
                     <td>Theta_x</td>
                     <td>Degrees</td>
-                    <td>126.67748</td>
+                    <td>171.50929</td>
                 </tr>
                 <tr>
                     <td>Theta_y</td>
                     <td>Degrees</td>
-                    <td>105.60642</td>
+                    <td>112.66373</td>
                 </tr>
             </table>
         </div>
@@ -101,21 +101,95 @@
                 <tr>
                     <td>AstroSat Detection Status</td>
                     <td></td>
-                    <td>NOT DETECTED</td>
+                    <td>DETECTED</td>
                 </tr>
             </table>
+        </div>
+        <div class="table-box">
+            <table id="TableThree">
+                <tr>
+                    <td>t90_czti</td>
+                    <td>Seconds</td>
+                    <td>11.27</td>
+                </tr>
+                <tr>
+                    <td>t90_czti_err</td>
+                    <td>Seconds</td>
+                    <td>6, -4</td>
+                </tr>
+                <tr>
+                    <td>peak_counts</td>
+                    <td></td>
+                    <td>415</td>
+                </tr>
+                <tr>
+                    <td>peak_count_err</td>
+                    <td></td>
+                    <td>48, -33</td>
+                </tr>
+                <tr>
+                    <td>Total_counts</td>
+                    <td></td>
+                    <td>1976</td>
+                </tr>
+                <tr>
+                    <td>Mean_background_counts</td>
+                    <td></td>
+                    <td>360</td>
+                </tr>
+            </table>
+        </div>
+        <div class="plt-box">
+            <h3>Light Curve: CZTI</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230320B/AS1CZT_GRB230320B_1SECBIN_lightcurves.pdf"></object>
+            </div>
+            <h3>Light Curve: Veto</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230320B/AS1CZT_GRB230320B_Veto_1SECBIN_lightcurves.pdf"></object>
+            </div>
         </div>
     </div>
     <div class="section-box" id="sectionFour">
         <h2>GCN Data</h2>
         <div class="gcn-box">
-            <p>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230330B.gcn3">Link</a></p>
+            <p>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230320B.gcn3">Link</a></p>
             <div class="collapsible-group">
                 <div class="collapsible-item">
                     <input type="checkbox" id="collapsible-1" class="toggle">
-                    <label for="collapsible-1" class="label">GCN Circular: 33545</label>
+                    <label for="collapsible-1" class="label">GCN Circular: 33515</label>
                     <div class="content">
-                        <iframe src="https://gcn.nasa.gov/circulars/33545/raw"></iframe>
+                        <iframe src="https://gcn.nasa.gov/circulars/33515/raw"></iframe>
+                    </div>
+                </div>
+
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33503</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33503/raw"></iframe>
+                    </div>
+                </div>
+
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33501</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33501/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33499</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33499/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33492</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33492/raw"></iframe>
                     </div>
                 </div>
             </div>
@@ -128,6 +202,8 @@
     <div class="section-box-end" id="sectionSix">
         <h2>Polarisation Data</h2>
         <p>Data is not present!</p>
+
+
     </div>
     <footer>
         <p>Copyright &copy; 2023 IUCAA, All Rights Reserved.</p>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRB230328B</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="/index.html" class="navbar-brand">GRAND CATALOG</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/index.html">HOME</a>
+            <a href="/table.html">TABLE</a>
+            <a href="/about.html">ABOUT</a>
+            <a href="/contact.html">CONTACT</a>
+        </div>
+    </nav>
+    <div class="grbhead">
+        <h1>GRB230328B</h1>
+        <div class="button-container">
+            <button><a href="#sectionOne">Summary</a></button>
+            <button><a href="#sectionTwo">AstroSat Info</a></button>
+            <button><a href="#sectionThree">Detection Info</a></button>
+            <button><a href="#sectionFour">GCN Data</a></button>
+            <button><a href="#sectionFive">Spectral Data</a></button>
+            <button><a href="#sectionSix">Polarisation Data</a></button>
+        </div>
+    </div>
+    <div class="section-box" id="sectionOne">
+        <h2>Summary</h2>
+        <div class="table-box">
+            <table id="TableOne">
+                <tr>
+                    <td>GRB Name</td>
+                    <td></td>
+                    <td>GRB230328B</td>
+                </tr>
+                <tr>
+                    <td>Trigger Time</td>
+                    <td>UTC</td>
+                    <td>2023-03-28 14:54:47</td>
+                </tr>
+                <tr>
+                    <td>RA</td>
+                    <td>Degrees</td>
+                    <td>301.8</td>
+                </tr>
+                <tr>
+                    <td>Dec</td>
+                    <td>Degrees</td>
+                    <td>75.6</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="section-box" id="sectionTwo">
+        <h2>AstroSat Info</h2>
+        <div class="table-box">
+            <table id="TableTwo">
+                <tr>
+                    <td>AstroSat Time</td>
+                    <td>AstroSat Seconds</td>
+                    <td>417711288.0</td>
+                </tr>
+                <tr>
+                    <td>Orbit_no</td>
+                    <td></td>
+                    <td>40537</td>
+                </tr>
+                <tr>
+                    <td>Theta</td>
+                    <td>Degrees</td>
+                    <td>127.87136</td>
+                </tr>
+                <tr>
+                    <td>Phi</td>
+                    <td>Degrees</td>
+                    <td>247.62992</td>
+                </tr>
+                <tr>
+                    <td>Theta_x</td>
+                    <td>Degrees</td>
+                    <td>-153.92331</td>
+                </tr>
+                <tr>
+                    <td>Theta_y</td>
+                    <td>Degrees</td>
+                    <td>-130.06260</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="section-box" id="sectionThree">
+        <h2>Detection Info</h2>
+        <div class="table-box">
+            <table class="table-mini" id="TableThreeMini">
+                <tr>
+                    <td>AstroSat Detection Status</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-box">
+            <table id="TableThree">
+                <tr>
+                    <td>t90_czti</td>
+                    <td>Seconds</td>
+                    <td>11.78</td>
+                </tr>
+                <tr>
+                    <td>t90_czti_err</td>
+                    <td>Seconds</td>
+                    <td>4, -4</td>
+                </tr>
+                <tr>
+                    <td>peak_counts</td>
+                    <td></td>
+                    <td>245</td>
+                </tr>
+                <tr>
+                    <td>peak_count_err</td>
+                    <td></td>
+                    <td>41, -43</td>
+                </tr>
+                <tr>
+                    <td>Total_counts</td>
+                    <td></td>
+                    <td>1090</td>
+                </tr>
+                <tr>
+                    <td>Mean_background_counts</td>
+                    <td></td>
+                    <td>409</td>
+                </tr>
+            </table>
+        </div>
+        <div class="plt-box">
+            <h3>Light Curve: CZTI</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230328B/AS1CZT_GRB230328B_1SECBIN_lightcurves.pdf"></object>
+            </div>
+            <h3>Light Curve: Veto</h3>
+            <div class="pdf-box">
+                <object data="/table/GRB230328B/AS1CZT_GRB230328B_Veto_1SECBIN_lightcurves.pdf"></object>
+            </div>
+        </div>
+    </div>
+    <div class="section-box" id="sectionFour">
+        <h2>GCN Data</h2>
+        <div class="gcn-box">
+            <p>GCN Collected Information: <a href="https://gcn.gsfc.nasa.gov/other/230328B.gcn3">Link</a></p>
+            <div class="collapsible-group">
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-1" class="toggle">
+                    <label for="collapsible-1" class="label">GCN Circular: 33526</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33526/raw"></iframe>
+                    </div>
+                </div>
+
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33527</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33527/raw"></iframe>
+                    </div>
+                </div>
+
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33528</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33528/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33529</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33529/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33530</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33530/raw"></iframe>
+                    </div>
+                </div>
+                <div class="collapsible-item">
+                    <input type="checkbox" id="collapsible-2" class="toggle">
+                    <label for="collapsible-2" class="label">GCN Circular: 33531</label>
+                    <div class="content">
+                        <iframe src="https://gcn.nasa.gov/circulars/33531/raw"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-box" id="sectionFive">
+        <h2>Spectral Data</h2>
+        <p>Fermi Detection Data is not present!</p>
+    </div>
+    <div class="section-box-end" id="sectionSix">
+        <h2>Polarisation Data</h2>
+        <p>Data is not present!</p>
+
+
+    </div>
+    <footer>
+        <p>Copyright &copy; 2023 IUCAA, All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
